@@ -1,0 +1,102 @@
+.container-Total{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.container-Total > .container-header-Login-Options{
+   height: 100%;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgb(0,0,0);
+    color: #cdfc0e;
+    border: none;
+    height: 100px;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu{
+    width: 90%;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu > .container-menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Logo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Logo > .Logo-container-Menu{
+    width: 80px;
+    padding: 5px;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu > .container-menu > .menu-options{
+    cursor: pointer;
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu > .container-menu > .menu-options:hover{
+    background: #cdfc0e;
+    color: rgb(0,0,0);
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu > .container-menu > .menu-options > a{
+    text-decoration: none;
+    color: #cdfc0e;
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu > .container-menu > .menu-options:hover > a{
+    color: rgb(0,0,0);
+}
+.container-Total > .container-header-Login-Options > .container-LoginForm > .Menu > .container-menu > .menu-options > a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.styleImgBackground{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Img/Post.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.styleImgBackground::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.styleImgBackground > .Fraseeffect{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.styleImgBackground > .Fraseeffect > .container-apresentation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #cdfc0e;
+}

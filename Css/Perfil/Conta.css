@@ -1,0 +1,22 @@
+.ContainerLoginViewInformation
+{
+    width: 100%;
+    padding: 20px;
+}
+.containerLogin
+{
+    width: 100%;
+}
+.ContaLogin
+{
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(50 , 0 , 230);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.perfillink
+{
+    text-decoration: none;
+}

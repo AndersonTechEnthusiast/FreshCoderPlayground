@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@500;600&family=Rajdhani:wght@500&display=swap');
+footer
+{
+    width: 100%;
+    background: #202020;
+    color: white;
+    font-family: 'Rajdhani',sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.ContainerFooter
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.LogoSiteFooter
+{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLinksAndTitlesFooter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerTopicosFooter
+{
+    padding: 20px;
+}
+.TopicosFooters
+{
+    list-style-type: none;
+}
+.TopicoFooter
+{
+    margin-top: 20px;
+}
+.LinkRodape
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.LinkRodape:hover
+{
+    transition: 1s;
+    color: #cdfc0e;
+}
+
+#Email
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg , red , rgb(233, 117, 117));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Form
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Instagram
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, red , orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Twitter
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, black , white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Facebook
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, rgb(0, 60, 255) , blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Game
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#analysis
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #3498db, #1f618d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Notices
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #bdc3c7, #34495e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Usuario 
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #f39c12, #e74c3c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#PPP
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#3498db, #2980b9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#TS
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#8e6d4d, #f1c40f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#PC
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#a06c43, #e74c3c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#EE
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #2ecc71, #e74c3c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Autores
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #ffd700, #f1c40f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#developer
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #00bcd4, #3498db);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#desings
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #e67e22, #9b59b6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Alert
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Warning
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#f39c12, #d4ac0d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#Parceria
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#ff6b81, #ff7675);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#link 
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#3498db, #2980b9, #1f618d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#recurso
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#2ecc71, #27ae60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+#FAQ
+{
+    margin-right: 20px;
+    background: linear-gradient(45deg,#3498db, #27ae60, #e74c3c, #f39c12);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}

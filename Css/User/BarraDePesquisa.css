@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@500;600&family=Rajdhani:wght@500&display=swap');
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+.BarraDePesquisaContainer
+{
+    width: 100%;
+    padding: 20px;    
+}
+.FormBarradePesquisa
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.containerPesquisa
+{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.BarraDePesquisa
+{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(50, 0, 230);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: calc(3* 30px);
+    padding-left: calc(3 * 30px);
+    outline: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+.Icon
+{
+    cursor: pointer;
+    position: absolute;
+}
+.Icon > i{
+    font-size: 30px;
+    color: rgb(50, 0, 230);
+   
+}
+#Lupa
+{
+    top: 14px;
+    left: 40px;
+}
+#Send
+{
+    top: 14px;
+    right: 40px;
+}
+.ButtonSubmitSearch
+{
+    display: none;
+}
+.BarraDePesquisa:focus
+{
+    transition: 1s;
+    border-radius: 20px;
+}
+#Mensage-Error
+{
+    display: none;
+    font-family: 'Rajdhani', sans-serif;
+}

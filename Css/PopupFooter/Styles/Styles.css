@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Back
+{
+    width: 100%;
+    background-image: url(../../../Img/ScrollHorizon/Kratps.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.Back::before
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.7);
+}
+.containerField
+{
+    width: 100%;
+    border-top: 20px solid #cdfc0e;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #cdfc0e;
+    color: white;
+    font-weight: 700;
+    font-family: 'Rajdhani',sans-serif;
+    font-size: 20px;
+}
+
+.Table
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+.TitlecontainerField
+{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.Columns
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.UlPopUp
+{
+    list-style-type: none;
+}
+.LiPopUp
+{
+    margin-top: 30px;
+}
+.containerAnalysis
+{
+    width: 100%;
+}
+
+.containerAnalysis
+{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#AÇÃO,
+#AVENTURA, 
+#RPG,
+#ESTRATÉGIA,
+#SIMULAÇÃO,
+#ESPORTES, 
+#CORRIDA,  
+#HORROR
+{
+    width: 100%;
+    padding-top: 20px;
+}
+#Pseudo-AÇÃO::before,
+#Pseudo-AVENTURA::before, 
+#Pseudo-RPG::before,
+#Pseudo-ESTRATÉGIA::before,
+#Pseudo-SIMULAÇÃO::before,
+#Pseudo-ESPORTES::before, 
+#Pseudo-CORRIDA::before,  
+#Pseudo-HORROR::before
+{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    background-color: Cyan;
+}
+#Pseudo-AÇÃO::before
+{
+    background: linear-gradient(to right, #FF4E50, #FC913A);
+    width: 25%;
+}
+#Pseudo-AVENTURA::before
+{
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    width: 15%;
+}
+#Pseudo-RPG::before
+{
+    background: linear-gradient(to right, #9b59b6, #3498db);
+    width: 20%;
+}
+#Pseudo-ESTRATÉGIA::before
+{
+    background: linear-gradient(to right, #2ecc71, #f1c40f);
+    width: 10%;
+}
+#Pseudo-SIMULAÇÃO::before
+{
+    background: linear-gradient(to right, #f1c40f, #e67e22);
+    width: 8%;
+}
+#Pseudo-ESPORTES::before
+{
+    background: linear-gradient(to right, #2ecc71, #FF4E50);
+    width: 12%;
+}
+#Pseudo-CORRIDA::before
+{
+    background: linear-gradient(to right, #3498db, #9b59b6);
+    width: 5%;
+}
+#Pseudo-HORROR::before
+{
+    background: linear-gradient(to right, #2c3e50, #992d22);
+    width: 5%;
+}
+.Book
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Page
+{
+    width: 50%;
+}
+.containerTxt
+{
+    width: 100%;
+    z-index: 1;
+}
+.titlecontaineTxt
+{
+    width: 100%;
+    text-align: center;
+}
+.NoticesOptions
+{
+    width: 100%;
+    padding: 10px;
+}
+.OptionsList
+{
+    list-style-type: none;
+    width: 100%;
+}
+.List
+{
+    width: 100%;
+}
+.List > b{
+    color: #cdfc0e;
+}
+
+#HTML,
+#CSS,  
+#JAVASCRIPT,
+#BIBLIOTECAS
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+#HTML > i,
+#CSS > i,
+#JAVASCRIPT > i,
+#BIBLIOTECAS > i
+{
+    font-size: calc(2 * 20px);
+}
+#HTML > i
+{
+    background: linear-gradient(135deg, #E44D26, #F16529);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#CSS > i
+{
+    background: linear-gradient(135deg, #264de4, #2652e4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#JAVASCRIPT > i
+{
+    background:  linear-gradient(135deg, #f0db4f, #f0e64d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#BIBLIOTECAS > i
+{
+    background: linear-gradient(135deg, #563d7c, #7952b3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#HTML::before
+{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 40%;
+    background: linear-gradient(135deg, #E44D26, #F16529);
+}
+#CSS::before
+{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 30%;
+    background: linear-gradient(135deg, #264de4, #2652e4);
+}
+
+#JAVASCRIPT::before
+{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 20%;
+    background:  linear-gradient(135deg, #f0db4f, #f0e64d);
+}
+#BIBLIOTECAS::before
+{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 10%;
+    background: linear-gradient(135deg, #563d7c, #7952b3);
+}
+.linksparceiros
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linksparceiros > .containerLinkRedirec
+{
+    width: 100%;
+}
+.linksparceiros > .containerLinkRedirec > .linkLinkparceros
+{
+    text-decoration: none;
+    color: #cdfc0e;
+}
+#AutorIcon
+{
+    margin-right: 20px;
+}

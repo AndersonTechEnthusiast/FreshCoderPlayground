@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Roboto:wght@500;700&display=swap');
+.POPUP{
+    padding: 20px;
+    border-top: 20px solid #cdfc0e;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #cdfc0e;
+    background-color: rgb(0,0,0);
+}
+.POPUP > .titlePOPUP{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0,0,0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #cdfc0e;
+    text-align: center;
+}
+.POPUP > .titlePOPUP > img{
+    width: 100%;
+}
+.POPUP > .inforPopup{
+    width: 100%;
+    color: #cdfc0e;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.POPUP > .inforPopup > .FirstDivisory{
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid #cdfc0e;
+    border-bottom: none;
+    padding: 20px;
+}
+.POPUP > .inforPopup > .SecondDivisory{
+    width: 50%;
+    padding: 20px;
+}
+.POPUP > .inforPopup > .FirstDivisory > .container-mensage-Topicos > .title-container-mensage-Topicos,
+.POPUP > .inforPopup > .SecondDivisory > .container-mensage-Topicos > .title-container-mensage-Topicos{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.POPUP > .inforPopup > .FirstDivisory > .container-mensage-Topicos > .paragrafo-container-mensage-Topicos,
+.POPUP > .inforPopup > .SecondDivisory > .container-mensage-Topicos > .paragrafo-container-mensage-Topicos{
+    color: white;
+    text-align: center;
+}
+

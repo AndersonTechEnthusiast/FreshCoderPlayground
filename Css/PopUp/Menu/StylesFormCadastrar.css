@@ -1,0 +1,106 @@
+.container-Forms > .Login
+{
+    background: #181818;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+}
+.container-Forms > .Login > .LoginForm
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-Forms > .Login > .LoginForm > .titleLogin{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.container-Forms > .Login > .LoginForm > .titleLogin > .barra-text{
+    width: 100%;
+}
+.container-Forms > .Login > .LoginForm > .titleLogin > .barra-text > .titleLogin{
+    font-size: 20px;
+    color: #cdfc0e;
+    font-family: 'Montserrat',sans-serif;
+}
+.container-Forms > .Login > .LoginForm > .inputs{
+    max-width: 100%;
+    border: 2px groove #cdfc0e;
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+.container-Forms > .Login > .LoginForm > .inputs > i{
+    font-size: 25px;
+    background: linear-gradient(45deg, #cdfc0e , #263002);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.container-Forms > .Login > .LoginForm > .inputs > #eye-openLogin{
+    left: 90%;
+}
+.container-Forms > .Login > .LoginForm > .inputs > #eye-closeLogin{
+    left: 90%;
+    display: none;
+}
+.container-Forms > .Login > .LoginForm > .inputs > .inputText{
+    border: none;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    width: 70%;
+    font-size: 18px;
+    background: linear-gradient(45deg, #cdfc0e , #263002);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 50px;
+}
+.container-Forms > .Login > .LoginForm > .submit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Forms > .Login > .LoginForm > .submit > .ButtonSubmitLogin{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #181818;
+    font-weight: 700;
+    background: linear-gradient(45deg, #cdfc0e , #263002);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 5s;
+}
+.container-Forms > .Login > .LoginForm > .submit > .ButtonSubmitLogin:hover{
+    transition: 5s;
+    background: linear-gradient(-45deg , #cdfc0e , #263002);
+}
+.container-Forms > .Login  > .LoginForm > .container-link{
+    width: 100%;
+    padding: 10px;
+}
+.container-Forms > .Login > .LoginForm > .container-link > .link-transtion{
+    text-decoration: none;
+    float: right;
+    font-family: 'Montserrat',sans-serif;
+}
+.container-Forms > .Login > .LoginForm > .container-link > #LoginParaCadastrar{
+    color: #cdfc0e;
+    transition: 1s;
+}
+.container-Forms > .Login > .LoginForm > .container-link > #LoginParaCadastrar:hover{
+    transform: 1s;
+    color: red;
+}

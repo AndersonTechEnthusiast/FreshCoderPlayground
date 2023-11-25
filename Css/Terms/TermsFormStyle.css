@@ -1,0 +1,32 @@
+.Form
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Options
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.radiobuttonconfirmacionorrecusedTermos
+{
+    margin-right: 20px;
+}
+.txtRadio
+{
+    cursor: pointer;
+}
+.ButtonSubmitForConfirmacionorNegacionTheTermsOfTheServiceForTurnTheAuthorForPostedPostinTheSiteThePostTheGameTheConquestGO
+{
+    border: none;
+    background: rgb(50 , 0 , 230);
+    color: white;
+    padding: 10px;
+}

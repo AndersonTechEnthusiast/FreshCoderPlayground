@@ -1,0 +1,69 @@
+Painel de controle
+-quantos cadastros com nivel de acessos de usuario 
+-quantos cadastros com nivel de acessos de autor
+-quantas postagens tem no conquest Go
+-quantas postagens tem da categoria Ação
+-quantas postagens tem da categoria Aventura
+-quantas postagens tem da categoria RPG
+-quantas postagens tem da categoria Estratégia
+-quantas postagens tem da categoria Simulação
+-quantas postagens tem da categoria Esportes 
+-quantas postagens tem da categoria corrida
+-quantas postagens tem da categoria horror
+
+Postagens
+-Postagens da categoria Ação
+-Postagens da categoria Aventura
+-Postagens de categoria RPG
+-Postagens de Estratégia 
+-Postagens de Simulação
+-Postagens de Esportes 
+-Postagens de Corrida 
+-Postagens de Horror
+
+Postagens - Editar Postagens
+-Postagens da categoria Ação - Editar Postagem 
+-Postagens da categoria Aventura - Editar Postagem 
+-Postagens de categoria RPG - Editar Postagem 
+-Postagens de Estratégia - Editar Postagem 
+-Postagens de Simulação - Editar Postagem 
+-Postagens de Esportes - Editar Postagem
+-Postagens de Corrida - Editar Postagem
+-Postagens de Horror - Editar Postagem
+
+Postagens - Excluir Postagens
+-Postagens da categoria Ação - Excluir Postagem 
+-Postagens da categoria Aventura - Excluir Postagem 
+-Postagens de categoria RPG - Excluir Postagem 
+-Postagens de Estratégia - Excluir Postagem 
+-Postagens de Simulação - Excluir Postagem 
+-Postagens de Esportes - Excluir Postagem
+-Postagens de Corrida - Excluir Postagem
+-Postagens de Horror - Excluir Postagem
+
+Usuarios 
+-Todos os usuarios  
+-Editar os usuarios 
+-Excluir os usuarios 
+ 
+Autor
+-Todos os Autores
+-Editar os Autores
+-Excluir os Autores
+
+visualizar todas as postagens com suas informações:
+(    [ID da Postagem]    )
+(    [Título]            )
+(    [Imagem]            )
+(    [Descrição]         )
+(    [Categoria]         )
+(    [ID do Autor]       )
+
+
+Gerencimento de Riscos
+-Deletar tabela de usuarios
+-Deletar tabela de autores
+-Deletar tabela de Postagens
+-Resetar tabela de usuarios
+-Resetar tabela de autores
+-Resetar tabela de Postagens 

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@500;600&family=Rajdhani:wght@500&display=swap');
+.ContainerCategory
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.Category
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Rajdhani',sans-serif;
+    font-size: 20px;
+}
+.Category::after
+{
+    content: " ";
+    display: inline-block;
+    height: 5px;
+    background: black;
+    width: 20%;
+}
+.Category::before
+{
+    content: " ";
+    display: inline-block;
+    height: 5px;
+    background: black;
+    width: 20%;
+}

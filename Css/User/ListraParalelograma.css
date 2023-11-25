@@ -1,0 +1,22 @@
+.ContainerListraParalelograma
+{
+    width: 100%;
+    padding: 10px;
+}
+.ListraParalelograma
+{
+    width: 80%;
+    border-top: 20px solid rgb(50 , 0 , 230);
+    border-right: 50px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 0 solid transparent;
+}
+.EsquerdaListraParalelograma
+{
+    width: 80%;
+    float: right;
+    border-top: 0 solid transparent;
+    border-right: 0 solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 20px solid rgb(50 , 0 , 230);
+}

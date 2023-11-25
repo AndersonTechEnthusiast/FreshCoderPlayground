@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    color: white;
+}
+.Parallax
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../Img/ghostoftsushima_4k_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Parallax::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.FrontInfo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerEdit
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+.FormEditNivelAcess
+{
+    width: 100%;
+}
+.EditNivel_Acessos
+{
+    background: transparent;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+}
+option
+{
+    background: #202020;
+    color: white;
+}
+.containerBtn
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edited
+{
+    width: 50%;
+    margin: 20px auto;
+    border: none;
+    background: linear-gradient(45deg , blue , rgb(0, 174, 255));
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+.containerNoticia
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ContainerImg
+{
+    width: 50%;
+}
+.containerInfo
+{
+    width: 50%;
+}
+.Inputs
+{
+    margin: 20px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px groove gray;
+    border-radius: 10px;
+}
+.Input
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+.ImgPosNotice
+{
+    width: 90%;
+}

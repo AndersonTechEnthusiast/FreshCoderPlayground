@@ -1,0 +1,24 @@
+.container-Forms{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.container-Forms > .Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 10;
+}
+.container-Forms > .Cadastrar{
+    position: absolute;
+    top:50%;
+    left: calc(2 * 100% * -1);
+    transform: translate(calc(2*100%) , -50%);
+    z-index: 10;
+}

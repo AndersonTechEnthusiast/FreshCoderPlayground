@@ -1,0 +1,44 @@
+.overlay-SobreNos:hover ~ .Transition{
+    transition: 1s;
+    transform: scale(1.0);
+}
+.Transition:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}
+
+.overlay-Services:hover ~ .Transition-Services{
+    transition: 1s;
+    transform: scale(1.0);
+}
+.Transition-Services:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}
+
+.overlay-RedesSociais:hover ~ .Transition-RedesSociais{
+    transition: 1s;
+    transform: scale(1.0);
+}
+.Transition-RedesSociais:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}
+
+.overlay-Contato:hover ~ .Transition-Contato{
+    transition: 1s;
+    transform: scale(1.0);
+}
+.Transition-Contato:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}
+
+.overlay-FAQs:hover ~ .Transition-FAQs{
+    transition: 1s;
+    transform: scale(1.0);
+}
+.Transition-FAQs:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}

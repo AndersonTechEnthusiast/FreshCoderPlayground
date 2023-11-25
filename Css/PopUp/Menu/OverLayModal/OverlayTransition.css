@@ -1,0 +1,8 @@
+.overlay:hover ~ .transitionForm{
+    transition: 1s;
+    transform: scale(1.0);
+}
+.transitionForm:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}

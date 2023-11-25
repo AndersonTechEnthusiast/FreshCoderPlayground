@@ -1,0 +1,106 @@
+.container-Forms > .Cadastrar
+{
+    background: #181818;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+}
+.container-Forms > .Cadastrar > .CadastrarForm
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .titleCadastrar{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .titleCadastrar > .barra-text{
+    width: 100%;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .titleCadastrar > .barra-text > .titleCadastrar{
+    font-size: 20px;
+    color: #cdfc0e;
+    font-family: 'Montserrat',sans-serif;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .inputs{
+    max-width: 100%;
+    border: 2px groove #cdfc0e;
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .inputs > i{
+    font-size: 25px;
+    background: linear-gradient(45deg, #cdfc0e , #263002);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .inputs > #eye-openCadastrar{ 
+    left: 90%;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .inputs > #eye-closeCadastrar{
+    left: 90%;
+    display: none;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .inputs > .inputText{
+    border: none;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    width: 70%;
+    font-size: 18px;
+    background: linear-gradient(45deg, #cdfc0e , #263002);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 50px;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .submit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .submit > .ButtonSubmitCadastrar{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #181818;
+    font-weight: 700;
+    background: linear-gradient(45deg, #cdfc0e , #263002);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 5s;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .submit > .ButtonSubmitCadastrar:hover{
+    transition: 5s;
+    background: linear-gradient(-45deg , #cdfc0e , #263002);
+}
+.container-Forms > .Cadastrar  > .CadastrarForm > .container-link{
+    width: 100%;
+    padding: 10px;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .container-link > .link-transtion{
+    text-decoration: none;
+    float: right;
+    font-family: 'Montserrat',sans-serif;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .container-link > #CadastrarParaLogin{
+    color: #cdfc0e;
+    transition: 1s;
+}
+.container-Forms > .Cadastrar > .CadastrarForm > .container-link > #CadastrarParaLogin:hover{
+    transform: 1s;
+    color: rgb(0,255,0);
+}

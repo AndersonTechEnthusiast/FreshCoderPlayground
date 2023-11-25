@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@500;600&family=Rajdhani:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Rajdhani',sans-serif;
+}
+.Parallax
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(2*(200px + 200px));
+    background-image: url(../../Img/parallaxADM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #cdfc0e;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Parallax::before
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.7);
+}
+.Front-Info
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+.SumarioSuave
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 18px;
+}
+.container-SumarioSuave
+{
+    width: 100%;
+}
+.Sumario
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoSite
+{
+    width: 10%;
+}
+.ContainerOptions
+{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.sumariosLinks
+{
+    text-decoration: none;
+    color: black;
+}
+.containerLinks
+{
+    display: flex;
+    align-items: center;
+
+}
+.containerLinks > i
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.Mensage
+{
+    padding: 20px;
+    width: 100%;
+    max-width: calc(2 * (200px + 200px) + 200px + 100px + 40px);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 20px;
+    margin: 20px auto;
+}
+.text > .title
+{
+    text-align: center;
+}
+.ContainerPhotoPerfil
+{
+    width: 100%;
+    padding: 20px;
+}
+.containerPhoto
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.imgcampactPhoto
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(50 , 0 , 230);
+    border-radius: 50%;
+}
+.PainelDeControle
+{
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(2 * (200px + 200px) + 200px + 100px + 40px);
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 20px;
+}
+.TituloEndRoll
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Indice
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.Indice::after , .Indice::before
+{
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 5px;
+    background: black;
+}
+.NameLog
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.NameLog::after , .NameLog::before
+{
+    content: "";
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background: black;
+}
+.containerPainelDeControle
+{
+    width: 100%;
+    padding: 20px;
+}
+.ViewPainelDeControle
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerImgLogin
+{
+    width: 40%;
+}
+.ImgLogin
+{
+    width: 100%;
+}
+.containerListras
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titlePainelDeControle
+{
+    width: 100%;
+    text-align: center;
+}
+ul , li 
+{
+    margin: 10px auto;
+    list-style-type: none;
+}
+.PainelDeControleEstatisticas
+{
+    text-decoration: none;
+    color: black;
+}
+.Postagens
+{
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(2 * (200px + 200px) + 200px + 100px + 40px);
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 20px;
+}
+.ViewPost
+{
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(2 * (200px + 200px) + 200px + 100px + 40px);
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 20px;
+}
+.containerPosts
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.PostView
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerImg
+{
+    width: 30%;
+}
+.ImgPostsView
+{
+    width: 100%;
+}
+.containerInfoPostsView
+{
+    width: 70%;
+    padding: 5px;
+}
+.infoPostView
+{
+    margin: 10px 0px;
+    width: 100%;
+    border-top: 1px groove black;
+    text-align: center;
+}
+.GerenciamentoDeRisco
+{
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(2 * (200px + 200px) + 200px + 100px + 40px);
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 20px;
+}
+.containerGDR
+{
+    width: 100%;
+}
+.FormGDR
+{
+    width: 100%;
+}
+.FormGDR > h2
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+.containerButtons
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.TxtButtons
+{
+    width: 50%;
+}
+.containerSubmit
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.buttonsGDR
+{
+    width: calc(2 * 200px);
+}
+#Resetar_banco_de_dados     {border: none; outline: none; background: linear-gradient(45deg , red , orange); color: white; padding: 10px; margin: 20px auto;}
+#Deletar_tabela_de_usuarios {border: none; outline: none; background: linear-gradient(45deg , red , orange); color: white; padding: 10px; margin: 20px auto;}
+#Deletar_tabela_de_autores  {border: none; outline: none; background: linear-gradient(45deg , red , orange); color: white; padding: 10px; margin: 20px auto;}
+#Deletar_tabela_de_Postagens{border: none; outline: none; background: linear-gradient(45deg , red , orange); color: white; padding: 10px; margin: 20px auto;}
+#Resetar_tabela_de_usuarios {border: none; outline: none; background: linear-gradient(45deg , Yellow , orange); color: white; padding: 10px; margin: 20px auto;}
+#Resetar_tabela_de_autores  {border: none; outline: none; background: linear-gradient(45deg , Yellow , orange); color: white; padding: 10px; margin: 20px auto;}
+#Resetar_tabela_de_Postagens{border: none; outline: none; background: linear-gradient(45deg , Yellow , orange); color: white; padding: 10px; margin: 20px auto;}
+html {
+    scroll-behavior:smooth;
+}

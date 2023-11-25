@@ -1,0 +1,16 @@
+.Carrossel
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerCarrossel
+{
+    width: 60%;
+}
+.carousel-item > img{
+    width: 100%;
+    height: calc(2 * (200px));
+    display: block;
+    margin: auto;
+}

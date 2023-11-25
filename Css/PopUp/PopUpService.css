@@ -1,0 +1,13 @@
+.POPUP > .inforPopup > .FirstDivisoryServices{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.inforPopup > .FirstDivisoryServices > .container-mensage-Topicos > .title-container-mensage-Topicos{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.inforPopup > .FirstDivisoryServices > .container-mensage-Topicos > .paragrafo-container-mensage-Topicos{
+    color: white;
+}

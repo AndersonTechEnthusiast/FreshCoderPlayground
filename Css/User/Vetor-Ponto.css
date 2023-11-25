@@ -1,0 +1,17 @@
+.Vetor-Ponto
+{
+    padding: 20px;
+    width: 100%;
+}
+.Reference1
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Ponto
+{
+    margin-right: 20px;
+    margin-left: 30px;
+}

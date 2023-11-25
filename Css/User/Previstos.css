@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@500;600&family=Rajdhani:wght@500&display=swap');
+.Previstos
+{
+    width: 100%;
+}
+.horizontal-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    padding: 20px;
+  }
+  .size
+  {
+    width: calc(2 * 200px);
+    height: calc(1* 200px + 50px);
+    
+    cursor: pointer;
+  }
+  .style
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rajdhani',sans-serif;
+    background-color: #202020;
+    max-width: 100%;
+  }
+  .mr-3
+  {
+    margin-right: 1rem;
+  }
+  .Link_Redirecte
+  {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+  }
+  .ContainerBtnScrollHorizon
+  {
+    width: 100%;
+  }
+  .BtnRedirect
+  {
+    width: 100%;
+    border: none;
+    background: rgb(50,0,230);
+    color: white;
+  }
+  .titleScrollHorizon
+  {
+    color: white;
+  }
